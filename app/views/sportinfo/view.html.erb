@@ -1,0 +1,11 @@
+<h1> WELCOME TO WWE SHOW</h1>
+<div class="row">
+  <div class="col-xs-6 col-xs-offset-3">
+    <% @sports.each do |sport| %>
+    <%=sport.name%>
+    <%=image_tag(sport.image.url)%>
+      
+    <% end %>
+  </div>
+</div>
+<%= link_to "superstar",(sportinfo_new_path)%>

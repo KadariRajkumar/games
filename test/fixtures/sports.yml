@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  mem: MyString
+  rul: MyString
+  pre: MyString
+  olm: false
+
+two:
+  name: MyString
+  mem: MyString
+  rul: MyString
+  pre: MyString
+  olm: false

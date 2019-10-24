@@ -1,0 +1,32 @@
+<h4>Sports List</h4>
+
+
+<%= form_for :sport, :url => {:controller=>'sportinfo' ,:action => 'create' } do |form| %>
+  
+
+  <div class="field">
+    <%= form.label :Name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Members %>
+    <%= form.text_field :mem %>
+  </div>
+  <div class="field">
+    <%= form.label :Gamerule %>
+    <%= form.text_field :rule %>
+  </div>
+  <div class="field">
+    <%= form.label :Precautions %>
+    <%= form.text_field :pre %>
+  </div>
+  <div class="field">
+    <%= form.label :Image %>
+    <%= form.file_field:image %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
